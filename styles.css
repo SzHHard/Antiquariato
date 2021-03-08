@@ -5,7 +5,7 @@ body{
 }
  .box{
    
-    width: 1300px;
+    width: 1000px;
     margin: 0 auto;
     height: 98%;
     border-left: 5px solid #e6e4da;
@@ -52,7 +52,7 @@ main{
 }
 
 .creslo {
-    width: 1100px; 
+    width: 900px; 
     margin: 0 auto;
    
 }
@@ -72,10 +72,11 @@ main{
   /* margin-left: 5%; */
 }
 .reasons{
-    width: 1100px;
+    width: 900px;
+    height: 340px;
     margin: 0 auto;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     /*flex-shrink: 1;
     flex-grow: 1;   
     РАЗОБРАТЬСЯ С ИЗМЕНЕНИЕМ ОТОБРАЖЕНИЯ ПРИ УМЕНЬШЕНИИ-УВЕЛИЧЕНИИ ОКНА*/
@@ -83,7 +84,7 @@ main{
 }
 .typewriters, .antique, .compasses{
     height: 310px;
-    max-width: 340px;
+    max-width: 270px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +93,8 @@ main{
 
 .typewriters p, .compasses p, .antique p{
     font-size: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
 }
 
 .typewriters img, .compasses img, .antique img, .bottblock img{
@@ -99,21 +102,24 @@ main{
     border: 4px solid white;
 }
 .join{
+    width: 900px;
     font-size: 15px;
     display: flex;
     margin-left: 10px;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 0 auto 20px auto;
     
 }
 .left{
- width: 65%;
- margin-right: 20px;
+ width: 50%;
+ margin-right: 100px;
+ 
 }
 
 
 table{
     /* border: 1px solid #f4f4f4; */
-    width: 229px;
+    width: 260px;
     font-size: 13px;
     border-collapse: collapse;
     
@@ -132,23 +138,26 @@ table thead, table .trdr{
 }
 .bottblock{
     display: flex;
-    justify-content: center;
+    
+    align-items: center;
 }
 .ourshop{
-    margin-left: 40px;
+    margin-left: 70px;
     margin-bottom: 20px;
-    width: 700px;
+    width: 500px;
 }
 .subscribe{
-    margin-left: 20px;
+    height: 329px;
+    margin-left: 110px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
 }
 input{
     display: block;
     margin-bottom: 4px;
-    border: 2px solid #e6e4da;
+    border: 2px solid #eae4cb;
     padding-left: 6px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -159,6 +168,7 @@ input{
     background-color: orange;
     width: 120px;
     border-radius: 10px;
+    margin-top: 30px;
    
    
 }
