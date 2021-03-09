@@ -1,8 +1,12 @@
 body{
+    font-weight: 400;
     margin-top: 0;
     margin-left: 2px;
     margin-right: 1px;  
 }
+ h5:hover, h6:hover{
+     color: #7a7665;
+ }
  .box{
    
     width: 1000px;
@@ -37,6 +41,12 @@ header .logo p{
     font-weight: 300;
     margin-right: 6px;
     display: inline;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+}
+.creslo p {
+    font-size: 17px;
+    font-weight: 500;
 }
 .welcome{
     margin-top: 40px;
@@ -73,7 +83,7 @@ main{
 }
 .reasons{
     width: 900px;
-    height: 340px;
+    height: 350px;
     margin: 0 auto;
     display:flex;
     justify-content: space-around;
@@ -92,7 +102,7 @@ main{
 }
 
 .typewriters p, .compasses p, .antique p{
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0px;
     margin-right: 10px;
 }
@@ -103,7 +113,7 @@ main{
 }
 .join{
     width: 900px;
-    font-size: 15px;
+    font-size: 17px;
     display: flex;
     margin-left: 10px;
     justify-content: space-around;
@@ -120,7 +130,7 @@ main{
 table{
     /* border: 1px solid #f4f4f4; */
     width: 260px;
-    font-size: 13px;
+    font-size: 15px;
     border-collapse: collapse;
     
 }
@@ -134,7 +144,7 @@ table thead, table .trdr{
 }
 .brown{
     color: #a33614;
-    font-size: 17px;
+    font-size: 19px;
 }
 .bottblock{
     display: flex;
@@ -165,14 +175,13 @@ input{
     border-radius: 10px;
 }
 .subm{
-    background-color: orange;
+    background: orange;
     width: 120px;
     border-radius: 10px;
     margin-top: 30px;
-   
-   
 }
 
+    
 footer{
     
     margin-top: 10px;
